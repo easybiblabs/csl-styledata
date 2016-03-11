@@ -1,0 +1,39 @@
+{
+    "name": "csl-data",
+    "description": "http://www.easybib.com/",
+    "type": "application",
+    "license": "proprietary",
+    "authors": [],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "citation-style-language/styles-distribution",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/citation-style-language/styles-distribution.git",
+                    "type": "git",
+                    "reference": "fb22d0256a11154ba439c0b0e1f869c3e3089dc0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "citation-style-language/locales",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/citation-style-language/locales.git",
+                    "type": "git",
+                    "reference": "07284a9617dfd2d28a46987cbcadbae0b2d84db7"
+                }
+            }
+        }
+    ],
+    "require": {
+        "citation-style-language/styles-distribution": "*",
+        "citation-style-language/locales": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
